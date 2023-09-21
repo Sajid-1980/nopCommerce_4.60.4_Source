@@ -1,0 +1,30 @@
+﻿@model ConfigureModel
+
+@{
+    Layout = "_ConfigurePlugin";
+ }
+ 
+
+
+<div class="container">
+    
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customProduct in Model.IslamicDressDatas)
+            {
+                <tr>
+                    <td>@customProduct.ProductName</td>
+                    <td>@customProduct.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+ 

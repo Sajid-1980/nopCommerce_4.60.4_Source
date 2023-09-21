@@ -1,0 +1,32 @@
+﻿@model ConfigureModel
+
+@{
+    Layout = "_ConfigurePlugin";
+ }
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+<div class="container">
+    
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customProduct in Model.CustomProducts)
+            {
+                <tr>
+                    <td>@customProduct.ProductName</td>
+                    <td>@customProduct.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<!-- Include Bootstrap JavaScript (jQuery is required as a dependency) -->
+ 

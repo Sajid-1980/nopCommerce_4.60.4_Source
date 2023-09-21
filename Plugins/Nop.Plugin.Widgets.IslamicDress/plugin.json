@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "IslamicDress",
+  "SystemName": "Widgets.IslamicDress",
+  "Version": "1.17",
+  "SupportedVersions": [ "4.60" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.IslamicDress.dll",
+  "Description": "customize your own one of a kind qamees"
+}
