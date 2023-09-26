@@ -37,7 +37,7 @@ namespace Nop.Plugin.Payments.PayPalStandard
 
         public Task<IList<string>> GetWidgetZonesAsync()
         {
-            return Task.FromResult<IList<string>>(new List<string> { PublicWidgetZones.MobHeaderMenuAfter });
+            return Task.FromResult<IList<string>>(new List<string> { PublicWidgetZones.HeaderMenuAfter });
         }
 
         public override async Task InstallAsync()
