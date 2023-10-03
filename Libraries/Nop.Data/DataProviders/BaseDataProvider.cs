@@ -464,7 +464,7 @@ namespace Nop.Data.DataProviders
         public virtual void BulkInsertEntities<TEntity>(IEnumerable<TEntity> entities) where TEntity : BaseEntity
         {
             using var dataContext = CreateDataConnection(LinqToDbDataProvider);
-            dataContext.BulkCopy(new BulkCopyOptions(), entities.RetrieveIdentity(dataContext));
+           dataContext.BulkCopy(new BulkCopyOptions(), entities.RetrieveIdentity(dataContext));
         }
 
         /// <summary>

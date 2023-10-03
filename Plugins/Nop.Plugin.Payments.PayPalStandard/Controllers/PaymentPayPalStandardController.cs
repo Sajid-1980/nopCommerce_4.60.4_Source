@@ -31,5 +31,12 @@ namespace Nop.Plugin.Payments.PayPalStandard.Controllers
 
             return View("~/Plugins/Payments.PayPalStandard/Views/Configure.cshtml", model);
         }
+
+        public async Task<IActionResult> Index()
+        {
+             
+
+            return View("~/Plugins/Payments.PayPalStandard/Views/Home.cshtml");
+        }
     }
 }

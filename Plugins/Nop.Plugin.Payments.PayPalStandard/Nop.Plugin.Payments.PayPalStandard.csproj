@@ -18,19 +18,631 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Content\alqeemz\1.jpg" />
+    <None Remove="Content\alqeemz\2.jpg" />
+    <None Remove="Content\alqeemz\3.jpg" />
+    <None Remove="Content\alqeemz\4.jpg" />
+    <None Remove="Content\alqeemz\buttons.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\ANTIQUE GOLD.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\CHROME BLUE.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\EVERGREEN.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\GRAY.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\LAVENDER.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\MAROON.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\matching.png" />
+    <None Remove="Content\alqeemz\buttonsthread\MINT.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\ORANGE.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\PINK.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\PLUM PURPLE.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\RED.jpg" />
+    <None Remove="Content\alqeemz\buttonsthread\SKY BLUE.jpg" />
+    <None Remove="Content\alqeemz\buttons\ANTIQUE GOLD.jpg" />
+    <None Remove="Content\alqeemz\buttons\BLACK.jpg" />
+    <None Remove="Content\alqeemz\buttons\CHROME BLUE.jpg" />
+    <None Remove="Content\alqeemz\buttons\DEEP GREEN.jpg" />
+    <None Remove="Content\alqeemz\buttons\EVERGREEN.jpg" />
+    <None Remove="Content\alqeemz\buttons\GRAY.jpg" />
+    <None Remove="Content\alqeemz\buttons\GRAYISH BROWN.jpg" />
+    <None Remove="Content\alqeemz\buttons\LAVENDER.jpg" />
+    <None Remove="Content\alqeemz\buttons\MAROON.jpg" />
+    <None Remove="Content\alqeemz\buttons\MINT.jpg" />
+    <None Remove="Content\alqeemz\buttons\ORANGE.jpg" />
+    <None Remove="Content\alqeemz\buttons\PINK.jpg" />
+    <None Remove="Content\alqeemz\buttons\PLUM PURPLE.jpg" />
+    <None Remove="Content\alqeemz\buttons\RED.jpg" />
+    <None Remove="Content\alqeemz\buttons\RUSTY BROWN.jpg" />
+    <None Remove="Content\alqeemz\buttons\SKY BLUE.jpg" />
+    <None Remove="Content\alqeemz\buttons\WHITE.jpg" />
+    <None Remove="Content\alqeemz\collar.png" />
+    <None Remove="Content\alqeemz\collar\Band.png" />
+    <None Remove="Content\alqeemz\collar\Bottom Down.png" />
+    <None Remove="Content\alqeemz\collar\Business Round.png" />
+    <None Remove="Content\alqeemz\collar\Business.png" />
+    <None Remove="Content\alqeemz\collar\Club.png" />
+    <None Remove="Content\alqeemz\collar\Curved.png" />
+    <None Remove="Content\alqeemz\collar\Cut away.png" />
+    <None Remove="Content\alqeemz\collar\Hoodie.png" />
+    <None Remove="Content\alqeemz\collar\Long Point.png" />
+    <None Remove="Content\alqeemz\collar\Mandarin.png" />
+    <None Remove="Content\alqeemz\collar\Modern Business.png" />
+    <None Remove="Content\alqeemz\collar\Narrow Spread.png" />
+    <None Remove="Content\alqeemz\collar\Polo.png" />
+    <None Remove="Content\alqeemz\collar\Simple.png" />
+    <None Remove="Content\alqeemz\collar\Square.png" />
+    <None Remove="Content\alqeemz\collar\Standard.png" />
+    <None Remove="Content\alqeemz\contrast.jpg" />
+    <None Remove="Content\alqeemz\contrast\Collar Border.png" />
+    <None Remove="Content\alqeemz\contrast\Collar Full.png" />
+    <None Remove="Content\alqeemz\contrast\Collar Inner.png" />
+    <None Remove="Content\alqeemz\contrast\Cuff Border.png" />
+    <None Remove="Content\alqeemz\contrast\Cuff Full.png" />
+    <None Remove="Content\alqeemz\contrast\Cuff Inner.png" />
+    <None Remove="Content\alqeemz\contrast\Pocket Flap Border.png" />
+    <None Remove="Content\alqeemz\contrast\Pocket Flap Full.png" />
+    <None Remove="Content\alqeemz\contrast\Pocket Full.png" />
+    <None Remove="Content\alqeemz\contrast\Pocket Top Border.png" />
+    <None Remove="Content\alqeemz\contrast\Pocket Top Full.png" />
+    <None Remove="Content\alqeemz\contrast\Yoke Border_Back.png" />
+    <None Remove="Content\alqeemz\contrast\Yoke Full_Back.png" />
+    <None Remove="Content\alqeemz\cuff.jpg" />
+    <None Remove="Content\alqeemz\cuff\Angle French.png" />
+    <None Remove="Content\alqeemz\cuff\Double Buttons.png" />
+    <None Remove="Content\alqeemz\cuff\Link.png" />
+    <None Remove="Content\alqeemz\cuff\Modern.png" />
+    <None Remove="Content\alqeemz\cuff\Napolean.png" />
+    <None Remove="Content\alqeemz\cuff\Simple Kuwaiti.png" />
+    <None Remove="Content\alqeemz\cuff\Simple.png" />
+    <None Remove="Content\alqeemz\cuff\Single Button.png" />
+    <None Remove="Content\alqeemz\cuff\Strap.png" />
+    <None Remove="Content\alqeemz\cuff\Triple Buttons.png" />
+    <None Remove="Content\alqeemz\cuff\Urban.png" />
+    <None Remove="Content\alqeemz\cuff\Zip.png" />
+    <None Remove="Content\alqeemz\extras.jpg" />
+    <None Remove="Content\alqeemz\fabric.jpg" />
+    <None Remove="Content\alqeemz\fabrics\0kv98rspyfmy2rvs.jpg" />
+    <None Remove="Content\alqeemz\fabrics\0n6cm8f22tpt967b.jpg" />
+    <None Remove="Content\alqeemz\fabrics\0rdgvqvd2qnqbgq5.jpg" />
+    <None Remove="Content\alqeemz\fabrics\3f7tdtfp2xm0rny1.jpg" />
+    <None Remove="Content\alqeemz\fabrics\3xb849xwn4y4pq9b.jpg" />
+    <None Remove="Content\alqeemz\fabrics\4w8fswzmbqj0qrrt.jpg" />
+    <None Remove="Content\alqeemz\fabrics\58r40srtfj59q41x.jpg" />
+    <None Remove="Content\alqeemz\fabrics\5r2f4ynjz5wpfsh9.jpg" />
+    <None Remove="Content\alqeemz\fabrics\6xtj1yrt5vz7xnfg.jpg" />
+    <None Remove="Content\alqeemz\fabrics\bqp7sbgvn8sdhxmg.jpg" />
+    <None Remove="Content\alqeemz\fabrics\bwcjyny4y33mhp7p.jpg" />
+    <None Remove="Content\alqeemz\fabrics\f9z8ybg8hdwqy26f.jpg" />
+    <None Remove="Content\alqeemz\fabrics\fybv2cbvxnx37jrw.jpg" />
+    <None Remove="Content\alqeemz\fabrics\gm4kymq5mfsys7fp.jpg" />
+    <None Remove="Content\alqeemz\fabrics\kfjgk3mkgf19yrnr.jpg" />
+    <None Remove="Content\alqeemz\fabrics\mkdjktm8b7817c2z.jpg" />
+    <None Remove="Content\alqeemz\fabrics\mtby29086kvgyc1k.jpg" />
+    <None Remove="Content\alqeemz\fabrics\n07zr5pr5brpnb41.jpg" />
+    <None Remove="Content\alqeemz\fabrics\pknhxchh2gd7czdt.jpg" />
+    <None Remove="Content\alqeemz\fabrics\wjwqcb33qftwzcg2.jpg" />
+    <None Remove="Content\alqeemz\fabrics\xww27cwk5st8fqk3.jpg" />
+    <None Remove="Content\alqeemz\fabrics\y58swdh3yr0y2kpx.jpg" />
+    <None Remove="Content\alqeemz\label.png" />
+    <None Remove="Content\alqeemz\message\Below Label.png" />
+    <None Remove="Content\alqeemz\message\Below Placket.png" />
+    <None Remove="Content\alqeemz\message\None.png" />
+    <None Remove="Content\alqeemz\monogram.jpg" />
+    <None Remove="Content\alqeemz\monogram\Cuff.png" />
+    <None Remove="Content\alqeemz\monogram\Pocket.png" />
+    <None Remove="Content\alqeemz\placket.jpg" />
+    <None Remove="Content\alqeemz\placket\Double Hole.png" />
+    <None Remove="Content\alqeemz\placket\Hidden Soft.png" />
+    <None Remove="Content\alqeemz\placket\Hidden Zip Soft.png" />
+    <None Remove="Content\alqeemz\placket\Narrow Hidden.png" />
+    <None Remove="Content\alqeemz\placket\Narrow.png" />
+    <None Remove="Content\alqeemz\placket\Polo.png" />
+    <None Remove="Content\alqeemz\placket\Reverse Hidden.png" />
+    <None Remove="Content\alqeemz\placket\Simple.png" />
+    <None Remove="Content\alqeemz\placket\Standard Hidden.png" />
+    <None Remove="Content\alqeemz\placket\Standard.png" />
+    <None Remove="Content\alqeemz\placket\Zip.png" />
+    <None Remove="Content\alqeemz\pocket.jpg" />
+    <None Remove="Content\alqeemz\side-pocket.jpg" />
+    <None Remove="Content\alqeemz\sidepocket\Double.png" />
+    <None Remove="Content\alqeemz\sidepocket\None.png" />
+    <None Remove="Content\alqeemz\sidepocket\Single.png" />
+    <None Remove="Content\alqeemz\thread.jpg" />
+    <None Remove="Content\alqeemz\toppocket\3 Lines Diagonal.png" />
+    <None Remove="Content\alqeemz\toppocket\3 Lines.png" />
+    <None Remove="Content\alqeemz\toppocket\Angle.png" />
+    <None Remove="Content\alqeemz\toppocket\Inclined.png" />
+    <None Remove="Content\alqeemz\toppocket\Point.png" />
+    <None Remove="Content\alqeemz\toppocket\Round.png" />
+    <None Remove="Content\alqeemz\toppocket\Square.png" />
+    <None Remove="Content\alqeemz\toppocket\Wallet.png" />
+    <None Remove="Content\alqeemz\yoke.jpg" />
+    <None Remove="Content\alqeemz\yoke\Yoke_Arrow_Back.png" />
+    <None Remove="Content\alqeemz\yoke\Yoke_Split_Back.png" />
+    <None Remove="Content\alqeemz\yoke\Yoke_Standard_Back.png" />
+    <None Remove="Content\appscripts\appscripts.js" />
+    <None Remove="Content\appscripts\obfuscated.js" />
+    <None Remove="Content\appscripts\refinecode.js" />
+    <None Remove="Content\appscripts\tabselector.js" />
+    <None Remove="Content\css\scrollbar.css" />
+    <None Remove="Content\css\site.css" />
+    <None Remove="Content\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="Content\lib\jquery\dist\jquery.js" />
+    <None Remove="Content\lib\jquery\dist\jquery.min.js" />
+    <None Remove="Content\lib\threejs\OBJLoader.js" />
+    <None Remove="Content\lib\threejs\OrbitControls.js" />
+    <None Remove="Content\lib\threejs\three.min.js" />
     <None Remove="logo.png" />
     <None Remove="plugin.json" />
     <None Remove="Views\Configure.cshtml" />
+    <None Remove="Views\Home.cshtml" />
     <None Remove="Views\PaypalButton.cshtml" />
     <None Remove="Views\_ViewImports.cshtml" />
   </ItemGroup>
   
   
   <ItemGroup>
+    <Content Include="Content\alqeemz\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\ANTIQUE GOLD.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\CHROME BLUE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\EVERGREEN.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\GRAY.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\LAVENDER.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\MAROON.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\matching.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\MINT.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\ORANGE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\PINK.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\PLUM PURPLE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\RED.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttonsthread\SKY BLUE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\ANTIQUE GOLD.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\BLACK.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\CHROME BLUE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\DEEP GREEN.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\EVERGREEN.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\GRAY.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\GRAYISH BROWN.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\LAVENDER.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\MAROON.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\MINT.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\ORANGE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\PINK.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\PLUM PURPLE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\RED.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\RUSTY BROWN.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\SKY BLUE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\buttons\WHITE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Band.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Bottom Down.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Business Round.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Business.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Club.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Curved.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Cut away.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Hoodie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Long Point.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Mandarin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Modern Business.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Narrow Spread.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Polo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Simple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Square.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\collar\Standard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Collar Border.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Collar Full.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Collar Inner.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Cuff Border.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Cuff Full.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Cuff Inner.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Pocket Flap Border.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Pocket Flap Full.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Pocket Full.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Pocket Top Border.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Pocket Top Full.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Yoke Border_Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\contrast\Yoke Full_Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Angle French.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Double Buttons.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Link.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Modern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Napolean.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Simple Kuwaiti.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Simple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Single Button.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Strap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Triple Buttons.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Urban.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\cuff\Zip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\extras.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabric.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\0kv98rspyfmy2rvs.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\0n6cm8f22tpt967b.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\0rdgvqvd2qnqbgq5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\3f7tdtfp2xm0rny1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\3xb849xwn4y4pq9b.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\4w8fswzmbqj0qrrt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\58r40srtfj59q41x.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\5r2f4ynjz5wpfsh9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\6xtj1yrt5vz7xnfg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\bqp7sbgvn8sdhxmg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\bwcjyny4y33mhp7p.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\f9z8ybg8hdwqy26f.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\fybv2cbvxnx37jrw.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\gm4kymq5mfsys7fp.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\kfjgk3mkgf19yrnr.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\mkdjktm8b7817c2z.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\mtby29086kvgyc1k.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\n07zr5pr5brpnb41.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\pknhxchh2gd7czdt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\wjwqcb33qftwzcg2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\xww27cwk5st8fqk3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\fabrics\y58swdh3yr0y2kpx.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\label.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\message\Below Label.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\message\Below Placket.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\message\None.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\monogram.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\monogram\Cuff.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\monogram\Pocket.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Double Hole.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Hidden Soft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Hidden Zip Soft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Narrow Hidden.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Narrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Polo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Reverse Hidden.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Simple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Standard Hidden.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Standard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\placket\Zip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\pocket.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\side-pocket.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\sidepocket\Double.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\sidepocket\None.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\sidepocket\Single.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\thread.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\3 Lines Diagonal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\3 Lines.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Angle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Inclined.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Point.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Round.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Square.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\toppocket\Wallet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\yoke.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\yoke\Yoke_Arrow_Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\yoke\Yoke_Split_Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\alqeemz\yoke\Yoke_Standard_Back.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\appscripts\appscripts.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\appscripts\obfuscated.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\appscripts\refinecode.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\appscripts\tabselector.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\css\scrollbar.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\css\site.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\bootstrap\dist\css\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\jquery\dist\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\jquery\dist\jquery.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\threejs\OBJLoader.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\threejs\OrbitControls.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\lib\threejs\three.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="plugin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Home.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\PaypalButton.cshtml">
@@ -48,6 +660,21 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
     <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <Folder Include="Content\alqeemz\extras\" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <None Update="Content\alqeemz\cuff\Snap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\lib\jquery\dist\jquery.min.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   
   <!-- This target execute after "Build" target -->
