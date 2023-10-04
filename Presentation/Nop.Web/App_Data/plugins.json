@@ -44,6 +44,10 @@
       "Version": "1.60"
     },
     {
+      "SystemName": "Payments.PayPalStandard",
+      "Version": "1.17"
+    },
+    {
       "SystemName": "Pickup.PickupInStore",
       "Version": "1.47"
     },
@@ -82,10 +86,6 @@
     {
       "SystemName": "ExternalAuth.Facebook",
       "Version": "1.80"
-    },
-    {
-      "SystemName": "Payments.PayPalStandard",
-      "Version": "1.17"
     }
   ],
   "PluginNamesToUninstall": [],

@@ -1,0 +1,136 @@
+﻿@inject IWebHelper webHelper
+@inject IDateTimeHelper dateTimeHelper
+@inject IPermissionService permissionService
+@inject ICustomerService customerService
+@inject IEventPublisher eventPublisher
+@inject LocalizationSettings localizationSettings
+@inject StoreInformationSettings storeInformationSettings
+@inject Nop.Services.Localization.ILanguageService languageService
+@using System.Globalization
+@using Nop.Core.Domain
+@using Nop.Core.Domain.Localization
+@using Nop.Services.Customers
+@using Nop.Services.Helpers
+@using Nop.Services.Security
+@using Nop.Web.Framework.UI
+
+
+@{
+    var returnUrl = webHelper.GetRawUrl(Context.Request);
+
+    //page title
+    string adminPageTitle = !string.IsNullOrWhiteSpace(ViewBag.PageTitle) ? ViewBag.PageTitle + " / " : "";
+    adminPageTitle += T("Admin.PageTitle").Text;
+
+    //has "Manage Maintenance" permission?
+    var canManageMaintenance = await permissionService.AuthorizeAsync(StandardPermissionProvider.ManageMaintenance);
+
+    //avatar
+    var currentCustomer = await workContext.GetCurrentCustomerAsync();
+
+    //event
+    await eventPublisher.PublishAsync(new PageRenderingEvent(NopHtml));
+
+    //info: we specify "Admin" area for actions and widgets here for cases when we use this layout in a plugin that is running in a different area than "admin"
+}
+<!DOCTYPE html>
+<html lang="@CultureInfo.CurrentUICulture.TwoLetterISOLanguageName" dir="@Html.GetUIDirection(localizationSettings.IgnoreRtlPropertyForAdminArea)">
+<head>
+    <title>@adminPageTitle</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    @NopHtml.GenerateHeadCustom()
+
+    @* CSS & Script resources *@
+    @{
+        await Html.RenderPartialAsync("_CustomDesignScritp");
+    }
+
+    @*Insert favicon and app icons head code*@
+    @await Component.InvokeAsync(typeof(FaviconViewComponent))
+</head>
+<body class="hold-transition sidebar-mini layout-fixed control-sidebar-slide-open">
+    <div class="throbber">
+        <div class="curtain">
+        </div>
+        <div class="curtain-content">
+            <div>
+                <h1 class="throbber-header">@T("Common.Wait")</h1>
+                <p>
+                    <img src="@Url.Content("~/css/admin/images/throbber-synchronizing.gif")" alt="" />
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="ajaxBusy">
+        <span>&nbsp;</span>
+    </div>
+    <div class="wrapper">
+        @if (IsSectionDefined("header"))
+        {
+            @RenderSection("header")
+        }
+        else
+        {
+            @await Component.InvokeAsync(typeof(AdminWidgetViewComponent), new { widgetZone = AdminWidgetZones.HeaderBefore })
+         
+
+            @await Component.InvokeAsync(typeof(AdminWidgetViewComponent), new { widgetZone = AdminWidgetZones.HeaderAfter })
+        }
+        @if (IsSectionDefined("headermenu"))
+        {
+            @RenderSection("headermenu")
+        }
+        else
+        {
+       
+        }
+        <div class="content-wrapper">
+            <nop-antiforgery-token />
+            @RenderBody()
+        </div>
+        <div class="main-footer">
+            <div class="container-fluid">
+                <div class="col-md-12">
+                    <div class="row">
+                        @if (!storeInformationSettings.HidePoweredByNopCommerce)
+                        {
+                            <div class="col-md-4 col-xs-12 text-md-left text-center">
+                                @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
+                            Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key*@
+                                Powered by <a href="@(OfficialSite.Main + Utm.OnAdminFooter)" target="_blank">nopCommerce</a>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-md-4 col-xs-12"></div>
+                        }
+                        <div class="col-md-4 col-xs-12 text-center">
+                            @((await dateTimeHelper.ConvertToUserTimeAsync(DateTime.Now)).ToString("f", CultureInfo.CurrentCulture))
+                        </div>
+                        <div class="col-md-4 col-xs-12 text-md-right text-center">
+                            <b>nopCommerce version @NopVersion.FULL_VERSION</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    @{
+        //scroll to a selected card (if specified)
+        var selectedCardName = Html.GetSelectedCardName();
+        if (!String.IsNullOrEmpty(selectedCardName))
+        {
+            <script>
+                location.hash = '#@(selectedCardName)';
+            </script>
+        }
+    }
+    <a id="backTop" class="btn btn-back-top bg-teal"></a>
+    
+    @NopHtml.GenerateScripts(ResourceLocation.Footer)
+    @NopHtml.GenerateInlineScripts(ResourceLocation.Footer)
+</body>
+</html>

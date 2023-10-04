@@ -1,32 +1,31 @@
-﻿                          
- <head>
+﻿@inject INopHtmlHelper NopHtml
 
-    <link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/css/scrollbar.css" />
-    <link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/css/site.css" asp-append-version="true" />
-
- </head>
+@{
+    Layout = "_CustomDesignPage";
+}
 
 
- 
-<style>
-    .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
-    }
+<link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/css/scrollbar.css" />
+@* <link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/Plugins/Payments.PayPalStandard/Content/css/site.css" asp-append-version="true" /> *@
 
-    .img.presentation_icon {
-        width: 40px;
-        height: 40px;
-    }
+@NopHtml.GenerateCssFiles();
 
-    .btn.btn-xs {
-        font-size: 10px;
-    }
-</style>
+@* <script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/obfuscated.js"></script>
+<script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/refinecode.js"></script>
+<script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/tabselector.js"></script> *@
+
+<script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/three.min.js"></script>
+<script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/objloader.js"></script>
+<script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/orbitcontrols.js"></script>
+
+<script src="~/Plugins/Payments.PayPalStandard/Content/lib/jquery/dist/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/appscripts.js"></script>
+@* <script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/refinecode.js"></script> *@
+
+
+
 
 <div class="scrollable-container">
     <!-- Content to be scrolled -->
@@ -440,24 +439,31 @@
         </div>
     </div>
     <div class="col-md-6">
-        @*  <span class="colorPicker"><input id="changecolor" type="color" value="#f5f3f2" />Color</span>
+        <button id="texture-1" class="texture-1">Change patren_1</button>
+        <button id="texture-2">Change patren_2</button>
+        <button id="texture-3" class="change_patren">Change patren_3</button>
+        <span class="colorPicker"><input id="changecolor" type="color" value="#f5f3f2" />Color</span>
         <button id="Kurta">khurta</button>
-        <button id="shalwar">shalwar</button> *@
-        <button id="zoom-in-button">Zoom Out</button>
-        <button id="zoom-out-button">Zoom in</button>
+        <button id="shalwar">shalwar</button>
+        <button id="colar_01_collar_01">colar_01</button>
+        <button id="colar_02">colar_02</button>
         <div id="modal"></div>
     </div>
+
 </div>
- 
+<script>
+    $(document).ready(function () {
+        $("#myTab a").click(function () {
+            // e.preventDefault();
+            $(this).tab("show");
+        });
+    });
+</script>
 
 
- 
-<script src="~/Plugins/Payments.PayPalStandard/Content/lib/jquery/dist/jquery.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/Plugins/Payments.PayPalStandard/Content/appscripts/refinecode.js"></script>
-@* <script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/three.min.js"></script>
-<script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/objloader.js"></script>
-<script src="~/Plugins/Payments.PayPalStandard/Content/lib/threejs/orbitcontrols.js"></script>
-  *@
+
+
+
+
 
 

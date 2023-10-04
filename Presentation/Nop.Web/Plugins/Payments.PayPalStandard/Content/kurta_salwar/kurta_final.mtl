@@ -1,0 +1,571 @@
+# Blender MTL File: 'Qamees_Final.blend'
+# Material Count: 52
+
+newmtl Button
+Ns 639.999995
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Button.001
+Ns 639.999995
+Ka 0.500000 0.500000 0.500000
+Kd 0.636674 0.636674 0.636674
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Fabric.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns -s 2.000000 2.000000 2.000000 D:\\WORK\\BlenderFiles\\Materials\\NEW\\Fabric036_2K-PNG\\Fabric036_2K_Roughness.png
+
+newmtl Fabric_131
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.003
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.004
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.005
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.006
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.007
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.008
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.009
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.010
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.011
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.012
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.013
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.014
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.015
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.016
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.017
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.018
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.019
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.020
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.021
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.022
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.023
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.024
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.025
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.026
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.027
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.028
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.029
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.030
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.031
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.032
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.033
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.034
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.035
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.036
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.037
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.038
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.039
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.042
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.043
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.046
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.047
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.048
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.049
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.050
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Fabric_131.051
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns C:\\Users\\HOME\\Downloads\\assets\\materials\\fabric_131_b1db35f9-9054-456c-8ff4-dc5d389e6397\\textures_2k\\fabric_131_roughness-2K.jpg
+
+newmtl Material.003
+Ns 639.999995
+Ka 0.600000 0.600000 0.600000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
