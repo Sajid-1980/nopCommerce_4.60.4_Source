@@ -18,6 +18,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Content\alqeemz\extras\**" />
+    <EmbeddedResource Remove="Content\alqeemz\extras\**" />
+    <None Remove="Content\alqeemz\extras\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Content\alqeemz\1.jpg" />
     <None Remove="Content\alqeemz\2.jpg" />
     <None Remove="Content\alqeemz\3.jpg" />
@@ -158,10 +164,7 @@
     <None Remove="Content\alqeemz\yoke\Yoke_Arrow_Back.png" />
     <None Remove="Content\alqeemz\yoke\Yoke_Split_Back.png" />
     <None Remove="Content\alqeemz\yoke\Yoke_Standard_Back.png" />
-    <None Remove="Content\appscripts\appscripts.js" />
-    <None Remove="Content\appscripts\obfuscated.js" />
     <None Remove="Content\appscripts\refinecode.js" />
-    <None Remove="Content\appscripts\tabselector.js" />
     <None Remove="Content\css\scrollbar.css" />
     <None Remove="Content\css\site.css" />
     <None Remove="Content\lib\bootstrap\dist\css\bootstrap.min.css" />
@@ -600,16 +603,7 @@
     <Content Include="Content\alqeemz\yoke\Yoke_Standard_Back.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\appscripts\appscripts.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\appscripts\obfuscated.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Content\appscripts\refinecode.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\appscripts\tabselector.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\css\scrollbar.css">
@@ -643,7 +637,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Home.cshtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\PaypalButton.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -664,12 +658,52 @@
   
 
   <ItemGroup>
-    <Folder Include="Content\alqeemz\extras\" />
-  </ItemGroup>
-  
-
-  <ItemGroup>
     <None Update="Content\alqeemz\cuff\Snap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\appscripts\appscripts.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\kurta_final.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\kurta_final.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_01.FBX">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_Basemesh_MD8.zpac">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\kurta_shalwar_collars.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\kurta_shalwar_collars.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_only.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_only.mtl_3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_only.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\Kurta_Shalwar_only_3.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\try.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\try.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\untitled.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\kurta_salwar\untitled.obj">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Content\lib\jquery\dist\jquery.min.map">

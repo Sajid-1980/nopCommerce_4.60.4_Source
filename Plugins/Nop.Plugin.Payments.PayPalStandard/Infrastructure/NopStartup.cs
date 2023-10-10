@@ -30,6 +30,12 @@ namespace Nop.Plugin.Payments.PayPalStandard.Infrastructure
         /// <param name="application">Builder for configuring an application's request pipeline</param>
         public void Configure(IApplicationBuilder application)
         {
+            application.UseStaticFiles(
+    new StaticFileOptions
+    {
+        ServeUnknownFileTypes = true,
+        DefaultContentType = "text/plane"
+    });
         }
 
         /// <summary>

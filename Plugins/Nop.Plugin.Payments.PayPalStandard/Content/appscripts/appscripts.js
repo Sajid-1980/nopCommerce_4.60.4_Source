@@ -31,12 +31,12 @@ function init() {
     // texture
     const manager = new THREE.LoadingManager(loadModel);
     const textureLoader = new THREE.TextureLoader(manager);
-    const texture_1 = textureLoader.load('/alqeemz/1.jpg');
+    const texture_1 = textureLoader.load('../../Plugins/Payments.PayPalStandard/Content/alqeemz/1.jpg');
     // Load the OBJ file
     var material = new THREE.MeshPhysicalMaterial({ color: 0xffffff, side: THREE.DoubleSide });
     const loader = new THREE.OBJLoader(manager);
     loader.load(
-        '/kurta_salwar/untitled.obj',
+        '../../Plugins/Payments.PayPalStandard/Content/kurta_salwar/untitled.obj',
         (obj) => {
             object = obj;
             object.traverse(function (child) {

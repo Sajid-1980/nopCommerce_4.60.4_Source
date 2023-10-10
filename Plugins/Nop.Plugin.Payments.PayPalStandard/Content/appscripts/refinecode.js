@@ -97,7 +97,7 @@ function init() {
     // Texture
     const manager = new THREE.LoadingManager(loadModel);
     const textureLoader = new THREE.TextureLoader(manager);
-    const texture_1 = textureLoader.load('/alqeemz/fabrics/0n6cm8f22tpt967b.jpg');
+    const texture_1 = textureLoader.load('../../Plugins/Payments.PayPalStandard/Content/alqeemz/fabrics/0n6cm8f22tpt967b.jpg');
 
     // Load the OBJ file
     var material = new THREE.MeshPhysicalMaterial({
@@ -106,8 +106,7 @@ function init() {
         shadowSide: THREE.DoubleSide, // Enable double-sided shadow casting and receiving
     });
     const loader = new THREE.OBJLoader(manager);
-    loader.load(
-        '/kurta_salwar/untitled.obj',
+    loader.load('../../Plugins/Payments.PayPalStandard/kurta_salwar/untitled.mtl',
         (obj) => {
             object = obj;
             object.traverse(function (child) {
@@ -206,12 +205,12 @@ function init() {
         }
     }
     // Create zoom in button
-    const zoomInButton = document.getElementById('zoom-in-button');
-    zoomInButton.addEventListener('click', zoomIn);
+    //const zoomInButton = document.getElementById('zoom-in-button');
+    //zoomInButton.addEventListener('click', zoomIn);
 
-    // Create zoom out button
-    const zoomOutButton = document.getElementById('zoom-out-button');
-    zoomOutButton.addEventListener('click', zoomOut);
+    //// Create zoom out button
+    //const zoomOutButton = document.getElementById('zoom-out-button');
+    //zoomOutButton.addEventListener('click', zoomOut);
 }
 
 function animate() {
