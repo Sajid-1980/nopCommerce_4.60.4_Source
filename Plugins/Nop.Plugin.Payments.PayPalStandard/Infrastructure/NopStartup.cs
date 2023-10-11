@@ -21,7 +21,7 @@ namespace Nop.Plugin.Payments.PayPalStandard.Infrastructure
         {
             services.AddScoped<CustomProduct>();
             services.AddScoped<CustomProductService>();
-            
+
         }
 
         /// <summary>
@@ -31,11 +31,11 @@ namespace Nop.Plugin.Payments.PayPalStandard.Infrastructure
         public void Configure(IApplicationBuilder application)
         {
             application.UseStaticFiles(
-    new StaticFileOptions
-    {
-        ServeUnknownFileTypes = true,
-        DefaultContentType = "text/plane"
-    });
+            new StaticFileOptions
+            {
+                ServeUnknownFileTypes = true,
+                DefaultContentType = "text/plane"
+            });
         }
 
         /// <summary>

@@ -2,8 +2,8 @@
 
 @{
     Layout = "_CustomDesignPage";
+    
     NopHtml.AppendScriptParts(ResourceLocation.Footer, "~/Plugins/Payments.PayPalStandard/Content/appscripts/appscripts.js", excludeFromBundle: true);
-
     NopHtml.AppendScriptParts(ResourceLocation.Footer, "~/Plugins/Payments.PayPalStandard/Content/lib/threejs/OrbitControls.js", excludeFromBundle: true);
     NopHtml.AppendScriptParts(ResourceLocation.Footer, "~/Plugins/Payments.PayPalStandard/Content/lib/threejs/OBJLoader.js", excludeFromBundle: true);
     NopHtml.AppendScriptParts(ResourceLocation.Footer, "~/Plugins/Payments.PayPalStandard/Content/lib/threejs/three.min.js", excludeFromBundle: true);
